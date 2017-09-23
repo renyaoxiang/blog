@@ -10,9 +10,4 @@ install:
 - npm install
 script:
 - npm test
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: f251b456dc58f37e50183770fd94e9e71f56237d # Set in travis-ci.org dashboard
-  on:
-    branch: master
+
